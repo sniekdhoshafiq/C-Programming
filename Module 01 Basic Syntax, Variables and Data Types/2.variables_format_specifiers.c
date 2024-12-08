@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <stdbool.h>
 
 int main()
 {
@@ -13,6 +14,9 @@ int main()
 
     double dl = 5.4623157894;
     printf("%lf \n", dl);
+
+    bool isFishTasty = true;
+    printf("%d \n", isFishTasty);
 
     char name[] = "shafiq";
     printf("%s \n", name);
